@@ -1,6 +1,6 @@
-parola_check();
+//parola_check();
 
-function parola_check(){
+//function parola_check(){
   var parola = prompt("Inserisci la parola");
   var palindromo =true;
   var arr_parola = [];
@@ -30,5 +30,5 @@ function parola_check(){
   }else{
     console.log("la parola " + parola + " non è palindroma")
   }
-}
+//}
 
